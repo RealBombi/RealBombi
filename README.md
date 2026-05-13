@@ -16,7 +16,7 @@ I like building, breaking, hosting, fixing, and occasionally over-engineering th
 
 ## Hei 👋
 
-I'm **Mads**, a 19-year-old **IT Operations Apprentice** currently working with IT drift, infrastructure, and system management at **Knutsen OAS Shipping**.
+I'm **Mads**, a <!-- AGE_START -->19<!-- AGE_END -->-year-old **IT Operations Apprentice** currently working with IT drift, infrastructure, and system management at **Knutsen OAS Shipping**.
 
 Most of my interest sits somewhere between **AI**, **operations**, **servers**, **automation**, and **development**. I enjoy the practical side of tech: getting systems to run properly, understanding why they fail, and making my own setup cleaner every time I rebuild it.
 
