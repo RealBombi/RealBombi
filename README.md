@@ -129,7 +129,10 @@ Not everything here is meant to be polished. Some of it is just me testing, lear
 ## Latest public repos
 
 <!-- REPOS_START -->
-Loading latest repos...
+- [`RealBombi`](https://github.com/RealBombi/RealBombi) — No description yet.
+- [`Remappr`](https://github.com/RealBombi/Remappr) — Remappr - Keyboard remapping tool for Windows
+- [`subswipe`](https://github.com/RealBombi/subswipe) — No description yet.
+- [`Tetris`](https://github.com/RealBombi/Tetris) — Tetris clone
 <!-- REPOS_END -->
 
 ---
