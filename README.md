@@ -126,6 +126,14 @@ Not everything here is meant to be polished. Some of it is just me testing, lear
 
 ---
 
+## Latest public repos
+
+<!-- REPOS_START -->
+Loading latest repos...
+<!-- REPOS_END -->
+
+---
+
 ## Stats & contributions
 
 <div align="center">
