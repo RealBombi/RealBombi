@@ -1,0 +1,58 @@
+name: Update latest public repos
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # Runs daily at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-repos:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Update latest public repos in README
+        run: |
+          USERNAME="RealBombi"
+          COUNT=5
+
+          REPOS=$(curl -s "https://api.github.com/users/$USERNAME/repos?sort=updated&direction=desc&per_page=$COUNT" \
+            | jq -r '.[] | select(.fork == false) | "- [`" + .name + "`](" + .html_url + ") — " + ((.description // "No description yet.") | gsub("\n"; " "))')
+
+          if [ -z "$REPOS" ]; then
+            REPOS="- No public repos found."
+          fi
+
+          awk -v repos="$REPOS" '
+            BEGIN {p=1}
+            /<!-- REPOS_START -->/ {
+              print
+              print repos
+              p=0
+              next
+            }
+            /<!-- REPOS_END -->/ {
+              p=1
+              print
+              next
+            }
+            p
+          ' README.md > README.tmp && mv README.tmp README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if git diff --quiet; then
+            echo "No repo update needed"
+          else
+            git add README.md
+            git commit -m "Update latest public repos"
+            git push
+          fi
