@@ -129,6 +129,7 @@ Not everything here is meant to be polished. Some of it is just me testing, lear
 ## Latest public repos
 
 <!-- REPOS_START -->
+- [`dailybulk`](https://github.com/RealBombi/dailybulk) — No description yet.
 - [`RealBombi`](https://github.com/RealBombi/RealBombi) — No description yet.
 - [`Remappr`](https://github.com/RealBombi/Remappr) — Remappr - Keyboard remapping tool for Windows
 - [`subswipe`](https://github.com/RealBombi/subswipe) — No description yet.
