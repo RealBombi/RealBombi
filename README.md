@@ -129,8 +129,8 @@ Not everything here is meant to be polished. Some of it is just me testing, lear
 ## Latest public repos
 
 <!-- REPOS_START -->
-- [`RealBombi`](https://github.com/RealBombi/RealBombi) — No description yet.
 - [`suno-songsmith`](https://github.com/RealBombi/suno-songsmith) — A Claude skill that turns a song or album idea into release-ready Suno material — Style prompts, structured lyrics with metatags, genre-switch songs, and album planning.
+- [`RealBombi`](https://github.com/RealBombi/RealBombi) — No description yet.
 - [`Remappr`](https://github.com/RealBombi/Remappr) — Remappr - Keyboard remapping tool for Windows
 - [`premium-ui-builder`](https://github.com/RealBombi/premium-ui-builder) — No description yet.
 - [`dailybulk`](https://github.com/RealBombi/dailybulk) — No description yet.
