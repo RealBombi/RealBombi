@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0099ff&height=190&section=header&text=Mads%20Ihle&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=IT%20Operations%20Apprentice%20%E2%80%A2%20AI%20builder%20%E2%80%A2%20Homelab%20tinkerer&descAlignY=56&descAlign=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0099ff&height=190&section=header&text=Mads%20Ihle&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=IT%20Operations%20Coordinator%20%E2%80%A2%20AI%20builder%20%E2%80%A2%20Homelab%20tinkerer&descAlignY=56&descAlign=50" width="100%" />
 
-### 🇳🇴 IT operations apprentice from Norway
+### 🇳🇴 IT operations coordinator from Norway
 
 I like building, breaking, hosting, fixing, and occasionally over-engineering things.
 
@@ -22,13 +22,13 @@ Most of my interest sits somewhere between **AI**, **operations**, **servers**, 
 
 Outside work, I mess around with a small homelab, run services for myself, and try out tools that make infrastructure less painful.
 
-I also use **AI a lot** — not just as a chatbot, but as a tool for learning faster, building faster, debugging faster, and turning random ideas into actual working projects. I like keeping up with new AI tools, models, workflows, and seeing how far I can push them in real projects.
+I also use **AI a lot**, not just as a chatbot, but as a tool for learning faster, building faster, debugging faster, and turning random ideas into actual working projects. I like keeping up with new AI tools, models, workflows, and seeing how far I can push them in real projects.
 
 ---
 
 ## AI is a big part of how I build
 
-I use AI more than almost anything at home. For me, it is not about replacing the work — it is about getting from idea to prototype faster and learning more while doing it.
+I use AI more than almost anything at home. For me, it is not about replacing the work, it is about getting from idea to prototype faster and learning more while doing it.
 
 I have built everything from small useful tools to bigger web projects, including:
 
@@ -75,8 +75,8 @@ homelab:
 
 | Period | Role | Where | What I worked with |
 | --- | --- | --- | --- |
-| 2023 – now | IT Operations Apprentice | Knutsen OAS Shipping | IT drift, infrastructure, server/system management |
-| 2022 – 2023 | Full-Stack Developer | Omega 365 | Real-world development projects, part-time |
+| 2023 - now | IT Operations Coordinator | Knutsen OAS Shipping | IT drift, infrastructure, server/system management |
+| 2022 - 2023 | Full-Stack Developer | Omega 365 | Real-world development projects, part-time |
 
 ---
 
@@ -118,9 +118,9 @@ Also working with **Proxmox**, **Windows Server**, system administration, and th
 
 Most of my learning and work is private or local, especially the AI/homelab experiments, but I keep some public things here too.
 
-- `Remappr` — public project on my newer GitHub
-- `subswipe` — small public project
-- `Tetris` — game/dev experiment
+- `Remappr` - public project on my newer GitHub
+- `subswipe` - small public project
+- `Tetris` - game/dev experiment
 
 Not everything here is meant to be polished. Some of it is just me testing, learning, or saving something I might want to come back to later.
 
@@ -129,11 +129,11 @@ Not everything here is meant to be polished. Some of it is just me testing, lear
 ## Latest public repos
 
 <!-- REPOS_START -->
-- [`dailybulk`](https://github.com/RealBombi/dailybulk) — No description yet.
-- [`RealBombi`](https://github.com/RealBombi/RealBombi) — No description yet.
-- [`suno-songsmith`](https://github.com/RealBombi/suno-songsmith) — A Claude skill that turns a song or album idea into release-ready Suno material — Style prompts, structured lyrics with metatags, genre-switch songs, and album planning.
-- [`Remappr`](https://github.com/RealBombi/Remappr) — Remappr - Keyboard remapping tool for Windows
-- [`premium-ui-builder`](https://github.com/RealBombi/premium-ui-builder) — No description yet.
+- [`dailybulk`](https://github.com/RealBombi/dailybulk) - No description yet.
+- [`RealBombi`](https://github.com/RealBombi/RealBombi) - No description yet.
+- [`suno-songsmith`](https://github.com/RealBombi/suno-songsmith) - A Claude skill that turns a song or album idea into release-ready Suno material: Style prompts, structured lyrics with metatags, genre-switch songs, and album planning.
+- [`Remappr`](https://github.com/RealBombi/Remappr) - Remappr - Keyboard remapping tool for Windows
+- [`premium-ui-builder`](https://github.com/RealBombi/premium-ui-builder) - No description yet.
 <!-- REPOS_END -->
 
 ---
@@ -163,6 +163,6 @@ Not everything here is meant to be polished. Some of it is just me testing, lear
 
 ### Always learning. Usually building with AI. Occasionally documenting it.
 
-Available weekdays, usually **08:00–16:00 CET**.
+Available weekdays, usually **08:00-16:00 CET**.
 
 </div>
