@@ -109,11 +109,11 @@ Things that have come out of that loop so far:
 **Latest pushes**
 
 <!-- REPOS_START -->
-- [`dailybulk`](https://github.com/RealBombi/dailybulk) - No description yet.
-- [`RealBombi`](https://github.com/RealBombi/RealBombi) - No description yet.
-- [`suno-songsmith`](https://github.com/RealBombi/suno-songsmith) - A Claude skill that turns a song or album idea into release-ready Suno material: Style prompts, structured lyrics with metatags, genre-switch songs, and album planning.
 - [`Remappr`](https://github.com/RealBombi/Remappr) - Remappr - Keyboard remapping tool for Windows
-- [`premium-ui-builder`](https://github.com/RealBombi/premium-ui-builder) - No description yet.
+- [`suno-songsmith`](https://github.com/RealBombi/suno-songsmith) - A Claude skill that turns a song or album idea into release-ready Suno material — Style prompts, structured lyrics with metatags, genre-switch songs, and album planning.
+- [`dailybulk`](https://github.com/RealBombi/dailybulk) - Mobile-first PWA for tracking calories, protein, creatine and bodyweight. Built for bulking without the boring logging.
+- [`premium-ui-builder`](https://github.com/RealBombi/premium-ui-builder) - A Claude skill that steers AI coding tools toward polished, non-generic UIs. Works with Claude, Codex and Cursor.
+- [`subswipe`](https://github.com/RealBombi/subswipe) - No description yet.
 <!-- REPOS_END -->
 
 <sub>Most of my AI and homelab experiments live privately, so this is the tip of the iceberg.</sub>
