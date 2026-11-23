@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="262" viewBox="0 0 1000 262" fill="none">
+<defs><linearGradient id="lg" gradientUnits="userSpaceOnUse" x1="52" y1="0" x2="500" y2="0"><stop offset="0" stop-color="#00c2ff" stop-opacity=".2"/><stop offset=".5" stop-color="#00c2ff"/><stop offset="1" stop-color="#2ee59d"/></linearGradient></defs>
+<style>
+.s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif} .m{font-family:ui-monospace,'SFMono-Regular','JetBrains Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace}
+
+.draw{stroke-dasharray:700;stroke-dashoffset:700;animation:draw 1.8s cubic-bezier(.6,0,.2,1) .2s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.dash{stroke-dasharray:4 7;animation:flow 1.2s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-11}}
+.in{animation:in .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+</style>
+<rect x=".5" y=".5" width="999" height="261" rx="16" fill="#0a0e16" stroke="#1c2533"/><text x="24" y="38" class="m" font-size="12" letter-spacing="3" fill="#566377" text-anchor="start">CAREER.LOG</text><line x1="52" y1="112" x2="948" y2="112" stroke="#1c2533" stroke-width="2"/><line class="draw" x1="52" y1="112" x2="500" y2="112" stroke="url(#lg)" stroke-width="2.5"/><line class="dash" x1="514" y1="112" x2="948" y2="112" stroke="#8b5cf6" stroke-opacity=".6" stroke-width="2"/><g class="in" style="animation-delay:0.40s">
+<text x="180" y="86" class="m" font-size="12.5" letter-spacing="2.5" fill="#00c2ff" text-anchor="middle">2022 - 2023</text>
+<circle cx="180" cy="112" r="6" fill="#0a0e16" stroke="#00c2ff" stroke-width="2"/>
+<text x="180" y="158" class="s" font-size="19" font-weight="700" fill="#e6edf3" text-anchor="middle">Full-Stack Developer</text>
+<text x="180" y="184" class="m" font-size="12.5" fill="#8b949e" text-anchor="middle">Omega 365  /  part-time</text>
+<text x="180" y="210" class="s" font-size="14" fill="#566377" text-anchor="middle">Real-world development projects</text>
+</g><g class="in" style="animation-delay:0.75s">
+<text x="500" y="86" class="m" font-size="12.5" letter-spacing="2.5" fill="#2ee59d" text-anchor="middle">2023 - NOW</text>
+<circle cx="500" cy="112" r="6" fill="#2ee59d" opacity=".45"><animate attributeName="r" values="6;18" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".5;0" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="500" cy="112" r="6" fill="#2ee59d"/>
+<text x="500" y="158" class="s" font-size="19" font-weight="700" fill="#e6edf3" text-anchor="middle">IT Operations Coordinator</text>
+<text x="500" y="184" class="m" font-size="12.5" fill="#8b949e" text-anchor="middle">Infrastructure  /  operations</text>
+<text x="500" y="210" class="s" font-size="14" fill="#566377" text-anchor="middle">Servers, systems and keeping things up</text>
+</g><g class="in" style="animation-delay:1.10s">
+<text x="820" y="86" class="m" font-size="12.5" letter-spacing="2.5" fill="#8b5cf6" text-anchor="middle">NEXT</text>
+<circle cx="820" cy="112" r="6" fill="#0a0e16" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="3 3"/>
+<text x="820" y="158" class="s" font-size="19" font-weight="700" fill="#c4b5fd" text-anchor="middle">Leveling up</text>
+<text x="820" y="184" class="m" font-size="12.5" fill="#8b949e" text-anchor="middle">Kubernetes  /  Azure  /  AI agents</text>
+<text x="820" y="210" class="s" font-size="14" fill="#566377" text-anchor="middle">Cleaner deployments, more automation</text>
+</g>
+</svg>

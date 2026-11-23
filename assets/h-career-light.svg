@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="56" viewBox="0 0 1000 56" fill="none">
+<defs><linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="#00c2ff" stop-opacity=".7"/><stop offset=".4" stop-color="#8b5cf6" stop-opacity=".35"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></linearGradient><linearGradient id="gl" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<style>
+.s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif} .m{font-family:ui-monospace,'SFMono-Regular','JetBrains Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace}
+.gl{animation:gl 5s ease-in-out infinite}@keyframes gl{0%{transform:translateX(-120px)}60%,100%{transform:translateX(1000px)}}
+</style>
+
+<text x="0" y="36" class="m" font-size="14" letter-spacing="2" fill="#00c2ff">04</text>
+<text x="34" y="37" class="s" font-size="26" font-weight="700" letter-spacing="-.5" fill="#1f2328">Career</text>
+<rect x="177" y="28" width="823" height="1.5" fill="url(#ln)"/>
+<clipPath id="cl"><rect x="177" y="26" width="823" height="6"/></clipPath>
+<g clip-path="url(#cl)"><rect class="gl" x="0" y="28" width="120" height="1.5" fill="url(#gl)"/></g>
+
+</svg>

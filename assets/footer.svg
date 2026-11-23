@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" fill="none">
+<defs>
+<clipPath id="c"><rect width="1000" height="230" rx="20"/></clipPath>
+<radialGradient id="g1"><stop offset="0" stop-color="#2f6bff" stop-opacity=".7"/><stop offset="1" stop-color="#2f6bff" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".6"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#fff" fill-opacity=".08"/></pattern>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".5"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#00c2ff" stop-opacity=".5"/></linearGradient>
+</defs>
+<style>
+.s{font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif} .m{font-family:ui-monospace,'SFMono-Regular','JetBrains Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace}
+
+.b1{animation:d1 15s ease-in-out infinite alternate}
+.b2{animation:d2 18s ease-in-out infinite alternate}
+@keyframes d1{to{transform:translate(300px,30px)}}
+@keyframes d2{to{transform:translate(-300px,-20px)}}
+
+</style>
+
+<g clip-path="url(#c)">
+  <rect width="1000" height="230" fill="#05080e"/>
+  <g filter="url(#blur)">
+    <circle class="b1" cx="260" cy="200" r="190" fill="url(#g1)"/>
+    <circle class="b2" cx="760" cy="40" r="190" fill="url(#g2)"/>
+  </g>
+  <rect width="1000" height="230" fill="url(#dots)"/>
+  <text x="500.0" y="96" class="s" font-size="34" font-weight="700" letter-spacing="-1" fill="#eef7ff" text-anchor="middle">Always learning. Usually building with AI.</text>
+  <text x="500.0" y="132" class="s" font-size="18" fill="#9fb0c7" text-anchor="middle">Occasionally documenting it.</text>
+  <circle cx="350.0" cy="176" r="3.5" fill="#2ee59d" opacity=".45"><animate attributeName="r" values="3.5;10.5" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".5;0" dur="2s" repeatCount="indefinite"/></circle><circle cx="350.0" cy="176" r="3.5" fill="#2ee59d"/>
+  <text x="364.0" y="180.5" class="m" font-size="12.5" letter-spacing="2.5" fill="#8fa0b8">AVAILABLE WEEKDAYS  08:00 - 16:00 CET</text>
+</g>
+<rect x=".75" y=".75" width="998.5" height="228.5" rx="19.5" stroke="url(#edge)" stroke-width="1.5"/>
+
+</svg>

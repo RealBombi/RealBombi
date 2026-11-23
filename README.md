@@ -1,132 +1,112 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0099ff&height=190&section=header&text=Mads%20Ihle&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=IT%20Operations%20Coordinator%20%E2%80%A2%20AI%20builder%20%E2%80%A2%20Homelab%20tinkerer&descAlignY=56&descAlign=50" width="100%" />
+<img src="./assets/hero.svg" width="100%" alt="Mads Ihle: IT Operations, AI builder, homelab" />
 
-### 🇳🇴 IT operations coordinator from Norway
+<br><br>
 
-I like building, breaking, hosting, fixing, and occasionally over-engineering things.
+<a href="https://github.com/RealBombi">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=1400&color=00C2FF&center=true&vCenter=true&width=640&lines=IT+Operations+Coordinator+from+Norway;Rebuilt+my+homelab+twice.+Probably+three+times.;Building+faster+with+Claude+and+Codex;Currently+asking%3A+why+is+this+service+down%3F;It+works+on+my+server." alt="Typing intro" />
+</a>
 
-<a href="https://linkedin.com/in/mads-ihle-b563622b2/"><img src="https://img.shields.io/badge/LinkedIn-Mads%20Ihle-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:madsihle.com@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://instagram.com/mads.ihle/"><img src="https://img.shields.io/badge/Instagram-@mads.ihle-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+<br><br>
+
+<a href="https://linkedin.com/in/mads-ihle-b563622b2/"><img src="https://img.shields.io/badge/LinkedIn-0d1320?style=for-the-badge&logo=linkedin&logoColor=00C2FF" alt="LinkedIn" /></a>
+<a href="mailto:madsihle.com@gmail.com"><img src="https://img.shields.io/badge/Email-0d1320?style=for-the-badge&logo=gmail&logoColor=00C2FF" alt="Email" /></a>
+<a href="https://instagram.com/mads.ihle/"><img src="https://img.shields.io/badge/Instagram-0d1320?style=for-the-badge&logo=instagram&logoColor=00C2FF" alt="Instagram" /></a>
+<img src="https://komarev.com/ghpvc/?username=RealBombi&style=for-the-badge&color=2f6bff&label=VIEWS" alt="Profile views" />
 
 </div>
 
----
+<br>
 
-## Hei 👋
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/h-about-light.svg" />
+  <img src="./assets/h-about.svg" width="100%" alt="About" />
+</picture>
 
-I'm **Mads**, a <!-- AGE_START -->20<!-- AGE_END -->-year-old **IT Operations Coordinator** currently working with IT drift, infrastructure, and system management at **Knutsen OAS Shipping**.
+<img src="./assets/terminal.svg" width="100%" alt="mads@homelab terminal" />
 
-Most of my interest sits somewhere between **AI**, **operations**, **servers**, **automation**, and **development**. I enjoy the practical side of tech: getting systems to run properly, understanding why they fail, and making my own setup cleaner every time I rebuild it.
+I'm **Mads**, a <!-- AGE_START -->20<!-- AGE_END -->-year-old **IT Operations Coordinator** from Norway, working with infrastructure, servers and system management day to day.
 
-Outside work, I mess around with a small homelab, run services for myself, and try out tools that make infrastructure less painful.
+I sit somewhere between **AI**, **operations** and **development**. I like the practical side of tech: getting systems to run properly, figuring out *why* they fail, and making my setup cleaner every time I tear it down and rebuild it.
 
-I also use **AI a lot**, not just as a chatbot, but as a tool for learning faster, building faster, debugging faster, and turning random ideas into actual working projects. I like keeping up with new AI tools, models, workflows, and seeing how far I can push them in real projects.
+Outside work I run a small homelab and use AI for pretty much everything. Not to skip the work, but to learn faster, build faster, debug faster, and turn random ideas into projects that actually run.
 
----
+<br>
 
-## AI is a big part of how I build
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/h-status-light.svg" />
+  <img src="./assets/h-status.svg" width="100%" alt="Status" />
+</picture>
 
-I use AI more than almost anything at home. For me, it is not about replacing the work, it is about getting from idea to prototype faster and learning more while doing it.
+<img src="./assets/status.svg" width="100%" alt="System status: mads operational, homelab degraded, sleep major outage" />
 
-I have built everything from small useful tools to bigger web projects, including:
+<br><br>
 
-- a simple **YouTube link to MP4 downloader** experiment
-- automation scripts and helper tools
-- AI-assisted workflows for testing ideas faster
-- a full anime **browser/discovery website** project
-- random homelab tools that solve very specific problems I created myself
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/h-build-light.svg" />
+  <img src="./assets/h-build.svg" width="100%" alt="How I build" />
+</picture>
 
-Some of these projects are polished. Some are chaotic. Most of them taught me something.
+<img src="./assets/pipeline.svg" width="100%" alt="Idea, prompt, prototype, break it, debug, ship" />
 
----
+Things that have come out of that loop so far:
 
-## What I’m into
+| | |
+| --- | --- |
+| **Remappr** | Keyboard remapping tool for Windows |
+| **suno-songsmith** | A Claude skill that turns song ideas into release-ready Suno material |
+| **Anime discovery site** | A full browser/discovery website for finding new shows |
+| **MP4 downloader** | Small YouTube-link-to-MP4 experiment |
+| **Homelab tooling** | Scripts and helpers for very specific problems I created myself |
 
-```yaml
-current_focus:
-  - AI tools and workflows
-  - IT operations and infrastructure
-  - server management
-  - homelab projects
-  - virtualization
-  - automation
-  - security basics
+<br>
 
-learning_more_about:
-  - AI agents and automation
-  - Kubernetes
-  - Azure
-  - data security
-  - cleaner deployment setups
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/h-career-light.svg" />
+  <img src="./assets/h-career.svg" width="100%" alt="Career" />
+</picture>
 
-homelab:
-  - Proxmox
-  - Plex
-  - Linux servers
-  - Docker containers
-  - random services I probably rebuilt twice
-```
+<img src="./assets/timeline.svg" width="100%" alt="2022 Full-Stack Developer at Omega 365, 2023 to now IT Operations Coordinator, next: Kubernetes, Azure, AI agents" />
 
----
+<br><br>
 
-## Work
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/h-stack-light.svg" />
+  <img src="./assets/h-stack.svg" width="100%" alt="Stack" />
+</picture>
 
-| Period | Role | Where | What I worked with |
-| --- | --- | --- | --- |
-| 2023 - now | IT Operations Coordinator | Knutsen OAS Shipping | IT drift, infrastructure, server/system management |
-| 2022 - 2023 | Full-Stack Developer | Omega 365 | Real-world development projects, part-time |
+<div align="center">
 
----
+<img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,azure,py,ts,js,cs,html,css,mysql,git,vscode,ps,pr,ai,unreal&perline=9" alt="Tech stack" />
 
-## Tools I use
+<br><br>
 
-### Development
+<img src="https://img.shields.io/badge/Claude-0d1320?style=for-the-badge&logo=claude&logoColor=D97757" alt="Claude" />
+<img src="https://img.shields.io/badge/Codex-0d1320?style=for-the-badge&logo=openai&logoColor=white" alt="Codex" />
+<img src="https://img.shields.io/badge/Proxmox-0d1320?style=for-the-badge&logo=proxmox&logoColor=E57000" alt="Proxmox" />
+<img src="https://img.shields.io/badge/Plex-0d1320?style=for-the-badge&logo=plex&logoColor=EBAF00" alt="Plex" />
+<img src="https://img.shields.io/badge/Windows%20Server-0d1320?style=for-the-badge&logoColor=00C2FF" alt="Windows Server" />
 
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,py,cs,mysql,git,vscode" />
-</p>
+</div>
 
-### AI / coding assistants
+<br>
 
-<p>
-  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude" />
-  <img src="https://img.shields.io/badge/Codex-111111?style=for-the-badge&logo=openai&logoColor=white" alt="Codex" />
-  <img src="https://img.shields.io/badge/Gemini-886FBF?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/h-projects-light.svg" />
+  <img src="./assets/h-projects.svg" width="100%" alt="Projects" />
+</picture>
 
-I use AI tools for prototyping, debugging, automation, documentation, learning, and turning random ideas into working projects faster.
+<div align="center">
+  <a href="https://github.com/RealBombi/Remappr"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=RealBombi&repo=Remappr&bg_color=0a0e16&border_color=1c2533&title_color=00c2ff&text_color=8b949e&icon_color=8b5cf6&border_radius=12" alt="Remappr" /></a>
+  <a href="https://github.com/RealBombi/suno-songsmith"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=RealBombi&repo=suno-songsmith&bg_color=0a0e16&border_color=1c2533&title_color=00c2ff&text_color=8b949e&icon_color=8b5cf6&border_radius=12" alt="suno-songsmith" /></a>
+  <a href="https://github.com/RealBombi/premium-ui-builder"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=RealBombi&repo=premium-ui-builder&bg_color=0a0e16&border_color=1c2533&title_color=00c2ff&text_color=8b949e&icon_color=8b5cf6&border_radius=12" alt="premium-ui-builder" /></a>
+  <a href="https://github.com/RealBombi/Tetris"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=RealBombi&repo=Tetris&bg_color=0a0e16&border_color=1c2533&title_color=00c2ff&text_color=8b949e&icon_color=8b5cf6&border_radius=12" alt="Tetris" /></a>
+</div>
 
-### Infrastructure / ops
+<br>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,azure" />
-</p>
-
-Also working with **Proxmox**, **Windows Server**, system administration, and the usual “why is this service down?” troubleshooting.
-
-### Creative / other
-
-<p>
-  <img src="https://skillicons.dev/icons?i=ps,pr,ai,unreal" />
-</p>
-
----
-
-## Public projects
-
-Most of my learning and work is private or local, especially the AI/homelab experiments, but I keep some public things here too.
-
-- `Remappr` - public project on my newer GitHub
-- `subswipe` - small public project
-- `Tetris` - game/dev experiment
-
-Not everything here is meant to be polished. Some of it is just me testing, learning, or saving something I might want to come back to later.
-
----
-
-## Latest public repos
+**Latest pushes**
 
 <!-- REPOS_START -->
 - [`dailybulk`](https://github.com/RealBombi/dailybulk) - No description yet.
@@ -136,33 +116,26 @@ Not everything here is meant to be polished. Some of it is just me testing, lear
 - [`premium-ui-builder`](https://github.com/RealBombi/premium-ui-builder) - No description yet.
 <!-- REPOS_END -->
 
----
-
-## Stats & contributions
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=RealBombi&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&rank_icon=github&include_all_commits=true&count_private=true&hide=issues" height="170" alt="GitHub stats" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RealBombi&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&langs_count=6" height="170" alt="Top languages" />
+<sub>Most of my AI and homelab experiments live privately, so this is the tip of the iceberg.</sub>
 
 <br><br>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RealBombi&theme=github_dark" width="95%" alt="GitHub profile summary" />
-
-<br><br>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RealBombi&theme=github_dark&utcOffset=1" width="47%" alt="Productive time" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RealBombi&theme=github_dark" width="47%" alt="Repos per language" />
-
-</div>
-
----
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/h-activity-light.svg" />
+  <img src="./assets/h-activity.svg" width="100%" alt="Activity" />
+</picture>
 
 <div align="center">
 
-### Always learning. Usually building with AI. Occasionally documenting it.
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=RealBombi&show_icons=true&rank_icon=github&include_all_commits=true&count_private=true&hide=issues&bg_color=0a0e16&border_color=1c2533&title_color=00c2ff&text_color=c9d1d9&icon_color=8b5cf6&border_radius=12" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RealBombi&layout=compact&langs_count=6&bg_color=0a0e16&border_color=1c2533&title_color=00c2ff&text_color=c9d1d9&border_radius=12" alt="Top languages" />
 
-Available weekdays, usually **08:00-16:00 CET**.
+<img width="100%" src="https://streak-stats.demolab.com?user=RealBombi&background=0a0e16&border=1c2533&stroke=1c2533&ring=00c2ff&fire=8b5cf6&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00c2ff&sideLabels=8b949e&dates=566377&border_radius=12" alt="Contribution streak" />
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=RealBombi&bg_color=0a0e16&color=8b949e&line=00c2ff&point=8b5cf6&area=true&area_color=00c2ff&title_color=e6edf3&hide_border=true&radius=12&custom_title=Contributions%2C%20last%2031%20days" alt="Contribution graph" />
 
 </div>
+
+<br>
+
+<img src="./assets/footer.svg" width="100%" alt="Always learning. Usually building with AI. Occasionally documenting it." />
