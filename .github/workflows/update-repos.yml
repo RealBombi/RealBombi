@@ -21,8 +21,13 @@ jobs:
           USERNAME="RealBombi"
           COUNT=5
 
-          REPOS=$(curl -s "https://api.github.com/users/$USERNAME/repos?sort=updated&direction=desc&per_page=$COUNT" \
-            | jq -r '.[] | select(.fork == false) | "- [`" + .name + "`](" + .html_url + ") — " + ((.description // "No description yet.") | gsub("\n"; " "))')
+          # Fetch extra repos, then drop forks and this profile repo before taking the top $COUNT
+          REPOS=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/users/$USERNAME/repos?sort=pushed&direction=desc&per_page=30" \
+            | jq -r --arg user "$USERNAME" --argjson count "$COUNT" '
+                [.[] | select(.fork == false and (.name | ascii_downcase) != ($user | ascii_downcase))]
+                | .[:$count][]
+                | "- [`" + .name + "`](" + .html_url + ") - " + ((.description // "No description yet.") | gsub("\n"; " "))')
 
           if [ -z "$REPOS" ]; then
             REPOS="- No public repos found."
