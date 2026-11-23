@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   update-age:
@@ -41,3 +42,13 @@ jobs:
             git commit -m "Update README age"
             git push
           fi
+
+      - name: Keep scheduled workflows enabled
+        # GitHub pauses scheduled workflows after 60 days without repo activity.
+        # Re-enabling them on every run resets that timer.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for wf in update-age.yml update-repos.yml snake.yml; do
+            gh api -X PUT "repos/${{ github.repository }}/actions/workflows/$wf/enable" || true
+          done

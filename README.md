@@ -132,6 +132,12 @@ Things that have come out of that loop so far:
 
 <img width="100%" src="https://streak-stats.demolab.com?user=RealBombi&background=0a0e16&border=1c2533&stroke=1c2533&ring=00c2ff&fire=8b5cf6&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00c2ff&sideLabels=8b949e&dates=566377&border_radius=12" alt="Contribution streak" />
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RealBombi/RealBombi/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RealBombi/RealBombi/output/snake-light.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/RealBombi/RealBombi/output/snake-dark.svg" alt="Snake eating my contribution graph" />
+</picture>
+
 <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RealBombi&theme=github_dark" alt="Contributions over the last year" />
 
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RealBombi&theme=github_dark&utcOffset=1" alt="Commits by hour" />
