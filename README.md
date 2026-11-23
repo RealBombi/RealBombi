@@ -127,12 +127,15 @@ Things that have come out of that loop so far:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=RealBombi&show_icons=true&rank_icon=github&include_all_commits=true&count_private=true&hide=issues&bg_color=0a0e16&border_color=1c2533&title_color=00c2ff&text_color=c9d1d9&icon_color=8b5cf6&border_radius=12" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RealBombi&layout=compact&langs_count=6&bg_color=0a0e16&border_color=1c2533&title_color=00c2ff&text_color=c9d1d9&border_radius=12" alt="Top languages" />
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=RealBombi&show_icons=true&rank_icon=github&hide=issues&bg_color=0a0e16&border_color=1c2533&title_color=00c2ff&text_color=c9d1d9&icon_color=8b5cf6&border_radius=12" alt="GitHub stats" />
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RealBombi&layout=compact&langs_count=6&bg_color=0a0e16&border_color=1c2533&title_color=00c2ff&text_color=c9d1d9&border_radius=12" alt="Top languages" />
 
 <img width="100%" src="https://streak-stats.demolab.com?user=RealBombi&background=0a0e16&border=1c2533&stroke=1c2533&ring=00c2ff&fire=8b5cf6&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00c2ff&sideLabels=8b949e&dates=566377&border_radius=12" alt="Contribution streak" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=RealBombi&bg_color=0a0e16&color=8b949e&line=00c2ff&point=8b5cf6&area=true&area_color=00c2ff&title_color=e6edf3&hide_border=true&radius=12&custom_title=Contributions%2C%20last%2031%20days" alt="Contribution graph" />
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RealBombi&theme=github_dark" alt="Contributions over the last year" />
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RealBombi&theme=github_dark&utcOffset=1" alt="Commits by hour" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RealBombi&theme=github_dark" alt="Repos per language" />
 
 </div>
 
